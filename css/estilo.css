@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap');
+
+/*
+font-family: 'Pacifico', cursive; //titulo
+font-family: 'Righteous', cursive; //conteudo
+*/
+
+.centro{
+    width: 1200px;
+}
+h2,h3,h4{
+    font-family: 'Pacifico', cursive;
+}
+p{
+    font-family: 'Righteous', cursive;
+}
+
+/* topo*/
+.topo{
+    background: #0000c4;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.topo .centro{
+    display: flex;
+    justify-content: space-between;
+}
+.topo .centro div{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto 0;
+}
+.topo .centro div p{
+    margin: 0 15px;
+    font-size: 20px;
+}
+.topo .centro nav a img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+/*MENU*/
+.menu{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.menu .centro{
+    display: flex;
+    justify-content: space-between;
+}
+.menu .centro h1{
+    width: 300px;
+    height: 70px;
+    background: url(../img/vivaSaude.png) no-repeat;
+    background-size: 100% 100%;
+    text-indent: -9999px;
+    margin: 25px 0;
+}
+.menu .centro nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.menu .centro nav ul a{
+    text-decoration: none;
+    color: #0000c4;
+    margin: 0 10px;
+}
+.menu .centro nav ul a li{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    background: #00ff48;
+    padding: 20px 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.menu .centro nav ul a li:hover{
+    background: #00cc48;
+}
+
+/*BANNER*/
+.banner img{
+    width: 100%;
+    max-height: 720px;
+}
+
+/*SOBRE*/
+.sobre{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+}
+.sobre .centro{
+    margin: 50px 0;/*SUP/INF + ESQ/DIR*/
+}
+.sobre .centro h2{
+    width: 600px;
+    text-align: center;
+    font-size: 35px;
+    color: #0000c4;
+    text-decoration: #0000c4 underline solid;
+}
+.sobre .centro div{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 10px 0; /*SUP DIR INF ESQ*/
+} 
+.sobre .centro div p{
+    width: 540px;
+    height: 400px;
+    border: #00ff48 solid 5px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 35px;
+    padding: 20px;
+    border-radius: 15px 0 0 15px; /*SUP/ESQ SUP/DIR INF/DIR INF/ESQ*/
+}
+.sobre .centro div img{
+    width: 580px;
+    height: 440px;
+    border: #00ff48 solid 5px;
+    border-radius: 0 15px 15px 0;
+}
+/*GALERIA*/
+.galeria{
+    width: 100%;
+    height: 290px;
+    background: #00ff48;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+.galeria img{
+    width: 240px;
+    height: 240px;
+    margin: 25px 40px;
+}
